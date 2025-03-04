@@ -1,0 +1,190 @@
+<html>
+<head>
+  <title>Video Thumbnails</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: gray;
+      margin: 0;
+      padding: 0;
+    }
+    
+
+    
+    .nav {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .video-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 320px;
+      margin: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .video-card:hover {
+      transform: scale(1.05);
+    }
+
+    .thumbnail {
+      position: relative;
+    }
+
+    .thumbnail video {
+      width: 100%;
+      height: auto;
+    }
+
+    .duration {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 2px 4px;
+      border-radius: 2px;
+      font-size: 12px;
+    }
+
+    .details {
+      padding: 10px;
+    }
+
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+      color: #000;
+    }
+
+    .channel {
+      font-size: 12px;
+      color: #606060;
+    }
+
+    .views {
+      font-size: 12px;
+      color: #606060;
+    }
+
+    .icon {
+      color: #606060;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+ <header>
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+  
+
+  <div class="container">
+    <!-- Video Card 1 -->
+    <div class="video-card">
+      <div class="thumbnail">
+        <video controls>
+          <source src="video/jannat2.mp4" type="video/mp4">
+       
+        </video>
+        <div class="duration">
+        0:58
+        </div>
+      </div>
+      <div class="details">
+        <p class="title">
+          jannat works with us and gets a canadian student visa.
+        </p>
+        <p class="channel">
+          <i class="fas fa-check-circle icon"></i>
+          icon visa consultency
+        </p>
+        <p class="views">
+          25k views • 1 year ago
+        </p>
+      </div>
+    </div>
+    <!-- Video Card 2 -->
+    <div class="video-card">
+      <div class="thumbnail">
+        <video controls>
+          <source src="video/jannat2.mp4" type="video/mp4">
+       
+        </video>
+        <div class="duration">
+        0:58
+        </div>
+      </div>
+      <div class="details">
+        <p class="title">
+          jannat works with us and gets a canadian student visa.
+        </p>
+        <p class="channel">
+          <i class="fas fa-check-circle icon"></i>
+          icon visa consultency
+        </p>
+        <p class="views">
+          25k views • 1 year ago
+        </p>
+      </div>
+    </div>
+
+    <!-- Video Card 3 -->
+    <div class="video-card">
+      <div class="thumbnail">
+        <video controls>
+          <source src="video/roni.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="duration">
+          1:04
+        </div>
+      </div>
+      <div class="details">
+        <p class="title">
+           rony works with us and gets a Romanian work permit visa.
+        </p>
+        <p class="channel">
+        world visa consultency
+        </p>
+        <p class="views">
+          7k views • 1years ago
+        </p>
+      </div>
+    </div>
+
+  
+
+
+  </div>
+
+</body>
+</html>
