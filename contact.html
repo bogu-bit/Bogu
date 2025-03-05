@@ -13,11 +13,16 @@
         }
 
 
-
-         .nav {
+    h1 {
+      text-align: center;
+      color: white;
+      margin: 20px 0;
+    }
+ .nav {
       display: flex;
       justify-content: center;
-      padding: 20px;
+      padding: 10px 0;
+      background-color: #333;
     }
 
     .nav a {
@@ -31,7 +36,6 @@
       text-decoration: underline;
     }
 
-
         .container {
             width: 100%;
             max-width: 900px;
@@ -43,7 +47,7 @@
             text-align: center;
         }
 
-        h1 {
+        h2 {
             color: #333;
         }
 
@@ -77,21 +81,43 @@
         .footer a:hover {
             text-decoration: underline;
         }
+
+    /* Responsive design for different screen sizes */
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .nav a {
+        margin: 10px 0;
+      }
+        @media (max-width: 600px) {
+      h1 {
+        font-size: 22px;
+      }       
     </style>
 </head>
 <body>
 
- <div class="nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </div>
-  
+ <h1>Jabir Consultancy Firm</h1>
+
+
+ <header>
+
+
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
 
 
 
     <div class="container">
-        <h1>Contact Us</h1>
+        <h2>Contact Us</h2>
         
         <h4>
             <p>Bogu Group is serving you with a reputation 
@@ -105,41 +131,19 @@ Jabir Consultancy Firm, Icon Visa Consultancy, World Visa Consultancy</p>
 
         <div class="social-icons">
             <!-- Facebook -->
-            <a href="https://www.facebook.com/profile.php?id=61554977723709" target="_blank">
+            <a href="https:https://www.facebook.com/profile.php?id=61554977723709" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="40">
             </a>
             <!-- WhatsApp -->
-            <a href="https://wa.me/1234567890" target="_blank">
+            <a href="https://wa.me/+8801958373969" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="40">
             </a>
-
-           <!-- Facebook -->
-            <a href="https://www.facebook.com/yourpage" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="40">
-            </a>
-
-              <!-- WhatsApp -->
-            <a href="https://wa.me/1234567890" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="40">
-            </a>
-            
-            <!-- Facebook -->
-            <a href="https://www.facebook.com/yourpage" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="40">
-            </a>
-
-              <!-- WhatsApp -->
-            <a href="https://wa.me/1234567890" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="40">
-            </a>
-
-
 
 
         </div>
 
         <div class="footer">
-            <p>For more info, visit our <a href="YOUR_CUSTOM_LINK_HERE" target="_blank">custom link</a>.</p>
+            <p>For more info, visit our <a href="YOUR_CUSTOM_LINK_HERE" target="_blank">others sites</a>.</p>
         </div>
     </div>
 
