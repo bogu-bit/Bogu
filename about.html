@@ -9,11 +9,16 @@
       margin: 0;
       padding: 0;
     }
-
-    .nav {
+h1 {
+      text-align: center;
+      color: white;
+      margin: 20px 0;
+    }
+ .nav {
       display: flex;
       justify-content: center;
-      padding: 20px;
+      padding: 10px 0;
+      background-color: #333;
     }
 
     .nav a {
@@ -96,17 +101,35 @@
     .img{
     
     }
+  /* Responsive design for different screen sizes */
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .nav a {
+        margin: 10px 0;
+      }
+        @media (max-width: 600px) {
+      h1 {
+        font-size: 22px;
+      }
 
     
   </style>
 </head>
 <body>
-  <div class="nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </div>
+    <h1>Jabir Consultancy Firm</h1>
   
+
+ <header>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
   <main>
 
 
